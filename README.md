@@ -13,6 +13,11 @@ kubectl create configmap domain --from-literal=name=netology.ru
 ```
 ### Ответ 1.1: 
 
+![image](https://user-images.githubusercontent.com/92969676/202639704-4903b9b1-c090-48d0-aff6-6ce7f1d950f7.png)
+
+![image](https://user-images.githubusercontent.com/92969676/202639766-215808fc-4879-4a2a-a7f5-08ba7b5d5fb8.png)
+
+
 ### 1.2 Как просмотреть список карт конфигураций?
 
 ```
@@ -21,6 +26,9 @@ kubectl get configmap
 ```
 ### Ответ 1.2: 
 
+![image](https://user-images.githubusercontent.com/92969676/202639847-378ee203-5a33-4e10-9beb-3290542bea31.png)
+
+
 ### 1.3 Как просмотреть карту конфигурации?
 
 ```
@@ -28,6 +36,8 @@ kubectl get configmap nginx-config
 kubectl describe configmap domain
 ```
 ### Ответ 1.3: 
+
+![image](https://user-images.githubusercontent.com/92969676/202639924-a1cfa22a-23a4-4666-89d9-9150abf3ef95.png)
 
 ### 1.4 Как получить информацию в формате YAML и/или JSON?
 
